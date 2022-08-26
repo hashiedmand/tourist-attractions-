@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta name="description" content="Wild life">
+
+        <title>Tourist attractions in sri lanka</title>
+        <link rel="stylesheet" href="placeorder.css">
+        <link rel="stylesheet" href="main.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <header>
+           <!--- <div class="navigation">
+                <nav class="main nav">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="wildlife.html">WILD ATTRACTIONS</a></li>
+                            <li><a href="beach.html">BEACHES</a></li>
+                            <li><a href="Activities.html">ACTIVITIES</a></li>
+                            <li><a href="heritage1.html">HERITAGE LOCATION 1</a></li>
+                            <li><a href="heritage2.html">HERITAGE LOCATION 2</a></li>
+                            <li><a href="p&d.html">PURCHASE AND DONATE</a></li>
+                        </ul> 
+                </nav>
+            <div>-->
+        </header>ssssss
+      <!--THe form!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+<form class="main">    
+        <fieldset>
+            <div id="ticket-form">
+                <label for="type">Choice of ticket</label>&nbsp;
+                <span><select name="forticket" class="ticket1" id="choice" onchange="addingcost();">
+                    <option value="selected disabled">Select choice of Ticket</option>
+                    <option value="5000">Foreign adult pass</option>
+                    <option value="2500">Foreign child pass</option>
+                    <option value="1000">Local adult pass</option>
+                    <option value="500">Local child pass</option>
+                    <option value="15000">Foreign annual pass</option>
+                    <option value="4500">Local annual pass</option>
+                    </select>
+                </span>
+            </div>
+            <br>
+
+    
+            <div id="ticket-form">
+                <label for="type">Duration</label>&nbsp;
+                <span><select name="forticket" id="duration" onchange="addingcost();">
+                    <option value="selected disabled">Select duration</option>
+                    <option value="0">3 hours</option>
+                    <option value="500">1/2 day(half a day)</option>
+                    <option value="1000">Full day</option>
+                    <option value="2000">2 days</option>
+                     </select>
+                </span>
+            </div>
+
+            <br>
+    
+            <label for="food" id="foodtoken">Food token : </label>&nbsp;
+                <span><input type="radio" id="ftoken" name="foodtoken" value="neededtoken"/>Food token needed</span>
+                <span><input type="radio" id="ftoken1" name="foodtoken" value="Nneededtoken"/>Food token not needed</span>
+
+
+            <!--nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn-->
+            <br><br>
+
+            <button type="button" onclick="display()">ADD TO ORDER</button>&nbsp;
+            <!--<button type="button" onclick="confmsg()">PLACE ORDER</button>-->
+            <button type="button" onclick="alert('Purchase successful\nPlease press ok to continue')">PLACE ORDER</button>
+
+            <br><br>
+
+            <p>For children under age 3, entrance is free</p><br>
+            <form id="tickettable">
+                <table id="c" width="1000px" border="1px" colspaan="6">
+                    <!--<tr><th colspan="7"></th></tr>-->
+                    <tr><td></td>
+                        <td>choice of ticket</td>
+                        <td>Duration</td>
+                        <td>Food token</td>
+                        <td>Annual pass</td>
+                        <td>Total Amount</td>
+                    </tr>
+                </table>
+                Overall Total: Rs. <input type="text" id="Overalltotal" />
+                <br><br>
+            </form>
+        </fieldset>
+</form>    
+
+<script src="placeorder.js"></script>
+</body>   
+</html>

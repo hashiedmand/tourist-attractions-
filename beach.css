@@ -1,0 +1,106 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/beach1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/beach1.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+ }
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+img{
+    border-radius: 15px;
+   margin: 15px;
+}
+
+.image{
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #F2EFEE;
+}
+
+.hotels{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.individual{
+    background: #40c0c0;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.individual p, h2{
+    padding: 15px;
+    text-align: justify;
+}
+
+.individual-image{
+    height: 190px;
+    margin-bottom: 50px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.hotel-1{
+    background-image: url(images/centralhotel.jpg);
+    background-size: cover;
+}
+.hotel-2{
+    background-image: url(images/ekhohotel.jpg);
+    background-size: cover;
+}
+.hotel-3{
+    background-image: url(images/hikkahotel.jpg);
+    background-size: cover;
+}
+
+.individual a{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.individual:hover{
+    background-color:#0f8f8f;
+    color: black;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+

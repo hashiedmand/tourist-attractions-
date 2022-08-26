@@ -1,0 +1,99 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/poloheritage.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/poloheritage.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+ }
+
+
+p{
+    font-size: 20px;
+}
+
+/*middle text*/
+ .title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+
+.heritagemaintext{
+    /*margin: 10px;*/
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #F2EFEE;
+    text-align: justify;
+}
+
+
+ol{
+    margin: 30px;
+    font-size: 20px;
+}
+p{
+    text-align: justify;
+}
+
+/*GRID*/
+
+.grid-container{
+    /*position: absolute;*/
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    /*width: 100vw;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,350px));
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+/*.grid-container :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}*/
+
+.heritage-flex{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+
+.heritage-item{
+    width: 435px;
+    height: auto;
+    margin: 20px;
+    padding: 15px;
+   /* background: #C4A484;*/
+    word-wrap: break-word;
+    text-align: justify;
+    background-color:#F2EFEE;
+}

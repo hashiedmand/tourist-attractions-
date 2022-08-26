@@ -1,0 +1,162 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/train.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/train.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+ }
+P{
+    margin: 10PX;
+    padding: 10PX;
+    font-size: 20px;
+    text-align: justify;
+}
+img{
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+.activities{
+    background-color:#F2EFEE;
+}
+.activities h2{
+   margin-left: 45%;
+}
+@media (max-width: 400px){
+    .activities img{
+        width: auto;
+        height: 200px;
+    }
+    .activities h2{
+        margin-left: 33%;
+    }
+    #third{
+        font-size: 15px;
+    }
+}
+
+.activities-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.acts{
+    background: #40c0c0;
+    width: 400px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.acts p, h2{
+    padding: 15px;
+    text-align: justify;
+}
+
+.acts-image{
+    height: 190px;
+    margin-bottom: 50px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.act-1{
+    background-image: url(images/centralhotel.jpg);
+    background-size: cover;
+}
+.act-2{
+    background-image: url(images/ekhohotel.jpg);
+    background-size: cover;
+}
+.act-3{
+    background-image: url(images/hikkahotel.jpg);
+    background-size: cover;
+}
+
+.acts a{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.acts:hover{
+    background-color:#0f8f8f;
+    color: black;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+input[type=text],input[type=number], select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    resize: vertical;
+    font-size: 19px;}
+
+input[type=radio]{
+        margin-left: 20px;
+        border: 1px solid #ccc;
+        font-size: 19px;}
+    
+
+label{
+    font-size: 19px;
+    font-style: bold;
+    width: 100%;
+    padding: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
+.button2 {
+    background-color: goldenrod;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 45%;}
+    
+fieldset{
+    background-color: #F2EFEE;
+}

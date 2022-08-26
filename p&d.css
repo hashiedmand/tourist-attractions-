@@ -1,0 +1,157 @@
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/p&gwhale.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/p&gwhale.jpg);
+    color: white;
+    background-size: cover;
+    height: auto;
+    background-position: center;
+ }
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 45px;
+}
+
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 40px;
+    }
+}
+
+.form-container{
+   background-color: #F2EFEE;
+   padding: 15px;
+   margin: 10px;
+}
+
+
+.Purchase{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.individual{
+    background: #40c0c0;
+    width: 300px;
+    height: auto;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.individual p, h2{
+    padding: 15px;
+    text-align: justify;
+}
+
+.individual-image{
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 15px 15px 0 0;
+    
+}
+.purchase-1{
+    background-image: url(images/mask.jpg);
+    background-size: cover;
+}
+.purchase-2{
+    background-image: url(images/woodenelephant.jpg);
+    background-size: cover;
+}
+.purchase-3{
+    background-image: url(images/oillamp.jpg);
+    background-size: cover;
+}
+.purchase-4{
+    background-image: url(images/pot.jfif);
+    background-size: cover;
+}
+
+.purchase-5{
+    background-image: url(images/jwelllery.jpg);
+    background-size: cover;
+}
+
+.purchase-6{
+    background-image: url(images/woodencane.webp);
+    background-size: cover;
+}
+.purchase-7{
+    background-image: url(images/chair.jpg);
+    background-size: cover;
+}
+
+.purchase-8{
+    background-image: url(images/woodmask.jpg);
+    background-size: cover;
+}
+
+
+.individual a{
+    background-color: black;
+    color: aliceblue;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;
+    text-decoration: none;
+}
+
+.individual:hover{
+    background-color:#0f8f8f;
+    color: black;
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 60px;
+}
+.title :hover{
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 400px){
+    .title h1{
+        font-size: 25px;
+    }
+}
+
+.button {
+        background-color: goldenrod;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 45%;}
+        

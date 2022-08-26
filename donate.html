@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta name="description" content="Wild life">
+
+        <title>Tourist attractions in sri lanka</title>
+        <link rel="stylesheet" href="donate.css">
+        <link rel="stylesheet" href="main.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                <nav class="main nav">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="wildlife.html">WILD ATTRACTIONS</a></li>
+                            <li><a href="beach.html">BEACHES</a></li>
+                            <li><a href="Activities.html">ACTIVITIES</a></li>
+                            <li><a href="heritage1.html">HERITAGE LOCATION 1</a></li>
+                            <li><a href="heritage2.html">HERITAGE LOCATION 2</a></li>
+                            <li><a href="p&d.html">PURCHASE AND DONATE</a></li>
+                        </ul> 
+                    </nav>
+            <div>
+                <div class="form">
+                    <form name="donateform" action="/action_page.php" onsubmit="return validateForm()" method="post" id="formy">
+                        <fieldset>
+                                <h3 align="center">DONATE</h3>
+                                    <div id="full_form">
+                                    <label for="fname">Full Name</label>&nbsp;
+                                    <span><input type="text" placeholder="Enter your full name" id="fname" name="formname"/></span></div>
+    
+                                    <div id="full_form">
+                                    <label for="donation"> Type of donation</label>&nbsp;
+                                    <span><select name="donate">
+                                        <option>disease and disorder support</option>
+                                        <option>Wild life</option>
+                                        <option>Patient and family support</option>
+                                        <option>schooling support</option>
+                                    </select></span>
+    
+                                    <div id="full_form">
+                                    <label for="email">Email</label>&nbsp;
+                                    <span><input type="text" placeholder="Enter your email" id="email" name="formname" /></span></div>
+    
+                                    <div id="full_form">
+                                    <label for="adr"> Phone number</label>&nbsp;
+                                    <span><input type="text" placeholder="Enter your phone number" id="phonenumber" name="formname"/></span></div>
+
+                                    <div id="full_form">
+                                        <label for="amount">Amount</label>&nbsp;<br>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>100</span>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>250</span>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>500</span>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>1000</span>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>2500</span>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>5000</span>
+                                        <span><input type="radio" id="pmethod" name="formname" value="100"/>10000</span></div>
+    
+                                    <div id="full_form">
+                                    <label for="pmethod">Payment method</label>&nbsp;<br>
+                                    <span><input type="radio" id="pmethod" name="cardname" value="100"/>Credit card</span><br>
+                                    <span><input type="radio" id="pmethod" name="cardname" value="100"/>Visit payment</span><br>
+                                    <span><input type="radio" id="pmethod" name="cardname" value="100"/>Debit card</span><br>
+                                    <span><input type="radio" id="pmethod" name="cardname" value="100"/>Mobile payments</span><br></div>
+    
+                                    <div id="full_form">
+                                    <label for="pass">Account number</label>&nbsp;
+                                    <span><input type="password" placeholder="enter your acc number" id="pass" name="formname"/></span></div>
+
+                                    <div id="full_form">
+                                        <label for="email">CVV</label>&nbsp;
+                                        <span><input type="text" placeholder="Enter the CVV" id="cvv" name="formname"/></span></div>
+
+                                    <label for="datemin">Enter a date after 2000-01-01:</label>
+                                    <span><input type="date" id="datemin" name="formname" min="2000-01-02"></span><br><br>
+                                </form>
+                                    <div id="full_form">
+                                        <button id="donation"  onclick="">DONATE NOW</button>
+                                        <!--<button onclick="(function(){alert('thank you for your donation')})()">DONATE NOW</button>-->
+                                    </div>
+                        </fieldset>            
+                    
+            <!--<div class="title">
+                  <h1>"Giving is not just about making a donation, It is about 
+                    making a difference" <br><hr> -kathy calvin
+                  </h1>
+             </div>-->
+        </header>
+        <section>
+            <!--<div class="form">
+                    <form>
+                                <h3>Personel details</h3>
+                                    <div id="full_form">
+                                    <label for="fname">Full Name</label>&nbsp;
+                                    <input type="text" placeholder="Enter your full name" id="fname" name="firstname"/></div>
+    
+                                    <div id="full_form">
+                                    <label for="email"> Last Name</label>&nbsp;
+                                    <input type="text" placeholder="Enter your last name" id="Last name" name="lastname" /></div>
+    
+                                    <div id="full_form">
+                                    <label for="email"> Email</label>&nbsp;
+                                    <input type="text" placeholder="Enter your email" id="email" name="email" /></div>
+    
+                                    <div id="full_form">
+                                    <label for="adr"> phone number</label>&nbsp;
+                                    <input type="text" placeholder="Enter your phone number" id="phonenumber" name="phonenumber" /></div>
+    
+                                    <div id="full_form">
+                                    <label for="uname">payment method</label>&nbsp;
+                                    <input type="text" placeholder="Enter your username" id="uname" name="cardname" /></div>
+    
+                                    <div id="full_form">
+                                    <label for="pass">Password</label>&nbsp;
+                                    <input type="text" placeholder="Enter your password" id="pass" name="cardnumber" /></div>
+                                   
+                                    <div class="button">
+                                        <input type="submit" value="Purchase">
+                                    </div>
+                    </form>-->
+            </div>
+        </section>
+        <script src="donate.js"></script>
+    </body>
+</html>
